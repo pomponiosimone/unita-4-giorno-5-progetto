@@ -15,6 +15,6 @@ class Immagine extends ElementoMulti {
     }
 
     public void show() {
-        System.out.println(titolo + " " + "*" + luminosita);
+        System.out.println(titolo + " " + "*".repeat(luminosita));
     }
 }
